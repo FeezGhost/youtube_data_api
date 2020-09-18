@@ -1,0 +1,11 @@
+AIzaSyCFnSmRaNp-0fxq0uem0Hr8nIEUxZSuLJ0
+https://www.googleapis.com/youtube/v3/
+
+<php 
+    $key = "AIzaSyCFnSmRaNp-0fxq0uem0Hr8nIEUxZSuLJ0";
+    $base_url = "https://www.googleapis.com/youtube/v3/";
+    $channel_id = "UC29ju8bIPH5as8OGnQzwJyA";
+    $maxresult= 10;
+    $api_url = " {$base_url} videos?myRating=like&part=snippet&maxResult= {$maxresult} &key={$key}"  ; 
+    echo $api_url ;?>
+    
